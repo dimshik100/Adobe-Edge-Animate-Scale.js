@@ -4,7 +4,7 @@ function adjustStageSize() {
 	var $stageWidth = $stage.width();
 	var $stageHeight = $stage.height();
 	
-	if ($window.width() > $stageWidth) {
+	if ($window.width() != $stageWidth) {
 		var xRatio = $window.width() / $stageWidth;
 		var yRatio = $window.height() / $stageHeight;
 		
